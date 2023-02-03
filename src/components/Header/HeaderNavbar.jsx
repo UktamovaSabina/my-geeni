@@ -4,7 +4,6 @@ import logo from '../../assets/Header-images/logo-geeni.png';
 import avatar from '../../assets/Header-images/avatar.png';
 import cart from '../../assets/Header-images/cart.png';
 import search from '../../assets/Header-images/search.png';
-// import
 
 const HeaderNavbar = () => {
   return (

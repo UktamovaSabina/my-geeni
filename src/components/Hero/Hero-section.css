@@ -12,24 +12,21 @@
     height: 100%;
     display: flex;
     gap: 60px;
-text-align: center;
+    text-align: center;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-
 
 .hero-container h2 {
     font-size: 70px;
     font-weight: 900;
 }
 
-
 .hero-container h3 {
     font-size: 30px;
     font-weight: 700;
 }
-
 
 .categories-list {
     display: flex;
@@ -73,7 +70,7 @@ text-align: center;
     gap: 100px;
 }
 
-.categories__brands li a{
+.categories__brands li a {
     color: aliceblue;
     font-size: 80px;
     font-family: 'Times New Roman', Times, serif;
@@ -95,7 +92,8 @@ text-align: center;
     margin-bottom: 10px;
 }
 
-.enjoy-btn h4, .enjoy-btn span {
+.enjoy-btn h4,
+.enjoy-btn span {
     font-weight: 700;
     font-size: 20px;
 }
@@ -139,7 +137,8 @@ text-align: center;
     opacity: 85%;
 }
 
-.modalka h2, .modalka p {
+.modalka h2,
+.modalka p {
     margin-bottom: 20px;
 }
 
