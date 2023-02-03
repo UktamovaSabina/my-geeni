@@ -22,25 +22,29 @@ const HeroSection = () => {
     enjoyBtn.current.classList.toggle("d-none");
   }
 
+  setTimeout(() => {
+    modalka.current.classList.remove("d-none");
+  }, 3000);
+
   return (
     <section className='hero-section'>
       <div className="container hero-container">
         <h2>One Home. One App.</h2>
         <h3>Shop By Category</h3>
         <ul className='categories-list'>
-          <li><a href="#"><img src={lamp} width={100} alt="" />
+          <li><a href="https://kun.uz"><img src={lamp} width={100} alt="" />
             <p className='category'>Lighting</p></a></li>
-          <li><a href="#"><img src={socket} width={100} alt="" /> <p className='category'>Power and Switches</p></a></li>
-          <li><a href="#"><img src={camera} width={100} alt="" /> <p className='category'>Cameras</p></a></li>
-          <li><a href="#"><img src={sensor} width={100} alt="" /> <p className='category'>Sensors</p></a></li>
-          <li><a href="#"><img src={lifeStyle} width={100} alt="" />  <p className='category'>Lifestyle</p></a></li>
-          <li><a href="#"><img src={strippedLights} width={100} alt="" /> <p className='category'>Strip Lights</p></a></li>
+          <li><a href="https://kun.uz"><img src={socket} width={100} alt="" /> <p className='category'>Power and Switches</p></a></li>
+          <li><a href="https://kun.uz"><img src={camera} width={100} alt="" /> <p className='category'>Cameras</p></a></li>
+          <li><a href="https://kun.uz"><img src={sensor} width={100} alt="" /> <p className='category'>Sensors</p></a></li>
+          <li><a href="https://kun.uz"><img src={lifeStyle} width={100} alt="" />  <p className='category'>Lifestyle</p></a></li>
+          <li><a href="https://kun.uz"><img src={strippedLights} width={100} alt="" /> <p className='category'>Strip Lights</p></a></li>
         </ul>
 
         <ul className='categories__brands'>
-          <li><a href="#">GEENI</a></li>
-          <li><a href="#">MERKURIY</a></li>
-          <li><a href="#">iHOME</a></li>
+          <li><a href="https://kun.uz">GEENI</a></li>
+          <li><a href="https://kun.uz">MERKURIY</a></li>
+          <li><a href="https://kun.uz">iHOME</a></li>
         </ul>
 
         <div className='enjoy-btn' onClick={showModal} ref={enjoyBtn}>
@@ -59,7 +63,7 @@ const HeroSection = () => {
             <input required type={'text'} placeholder='Email' />
             <button type={'submit'} className='sign-up-btn'>SIGN UP</button>
           </form>
-          <a href="#">*Cannot be combined with other offers.</a>
+          <a href="https://kun.uz">*Cannot be combined with other offers.</a>
         </div>
         </div>
         

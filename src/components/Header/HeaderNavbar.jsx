@@ -13,16 +13,16 @@ const HeaderNavbar = () => {
 
         <div className='navbar-compile'>
         <ul className='header-navbar'>
-          <li><a href="#">Deals</a></li>
-          <li><a href="#">Products</a></li>
-          <li><a href="#">Support</a></li>
-          <li><a href="#">About Us</a></li>
+          <li><a href="https://kun.uz">Deals</a></li>
+          <li><a href="https://kun.uz">Products</a></li>
+          <li><a href="https://kun.uz">Support</a></li>
+          <li><a href="https://kun.uz">About Us</a></li>
         </ul>
 
         <ul className='settings-nav'>
-          <li><a href="#"><img width={20} src={avatar} alt="setting" /></a></li>
-          <li><a href="#"><img width={27} src={cart} alt="setting" /></a></li>
-          <li><a href="#"><img width={20} src={search} alt="setting" /></a></li>
+          <li><a href="https://kun.uz"><img width={20} src={avatar} alt="setting" /></a></li>
+          <li><a href="https://kun.uz"><img width={27} src={cart} alt="setting" /></a></li>
+          <li><a href="https://kun.uz"><img width={20} src={search} alt="setting" /></a></li>
         </ul>
         </div>
     </div>

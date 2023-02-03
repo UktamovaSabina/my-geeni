@@ -6,9 +6,9 @@ const HeaderBrands = () => {
     <div className='header-brands'>
       <span className='shop-by-brand'>Shop by Brand:</span>
       <ul className='header-brans-list'>
-        <li><a href="#">geeni</a></li>
-        <li><a href="#">merkury</a></li>
-        <li><a href="#">iHome</a></li>
+        <li><a href="https://kun.uz">geeni</a></li>
+        <li><a href="https://kun.uz">merkury</a></li>
+        <li><a href="https://kun.uz">iHome</a></li>
       </ul></div>
   )
 }
