@@ -1,0 +1,12 @@
+.free-shipping-wrapper {
+    background-color: rgb(14, 195, 245);
+}
+
+.free-shipping-link {
+    width: 100%;
+    display: block;
+    padding: 25px 0;
+    color: #FFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}

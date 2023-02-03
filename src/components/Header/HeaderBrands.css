@@ -1,0 +1,38 @@
+.header-brands {
+    width: 100%;
+    padding-left: 30px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-size: large;
+    background-color: rgb(32, 29, 29);
+    color: aliceblue;
+}
+
+@media screen and (max-width:400px) {
+    .header-brands, .header-brans-list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+.shop-by-brand {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+}
+
+.header-brans-list {
+    display: flex;
+}
+
+.header-brans-list li a {
+    display: inline-block;
+    padding: 35px 25px;
+    color: aliceblue;
+}
+
+.header-brans-list li a:hover {
+    background-color: aliceblue;
+    color: black;
+    
+}
